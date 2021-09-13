@@ -1,0 +1,9 @@
+          -----------------------Briefing----------------------
+Objetivo do site:
+	Site informativo do mundo da robótica.
+Público alvo:
+	Todos que tenham interesse no campo da robótica.
+Palavras chaves:
+	Robôs, robô, inteligência artificial, humanoides, robôs autonomos, automação.
+	
+	
