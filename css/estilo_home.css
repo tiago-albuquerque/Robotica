@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+body
+{
+    background: url("../img/fundo2.jpg") no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#interface
+{
+    background: rgba(13, 2, 168, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    margin: -8px auto 0px auto;
+}
+
+.topo
+{
+    height: 130px;
+}
+
+nav.menu
+{
+    width: 800px;
+    display: block;
+    position: absolute;
+    top: 99px;
+    margin-left: 473px;
+    z-index: 100;
+}
+
+.menu ul
+{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.1em;
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.menu li
+{
+    float: left;
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color:#ccc;
+    background: rgba(124, 118, 118, 0.3);
+    padding: 5px 25px;
+    margin: 0px;
+    display: block;
+}
+
+.menu li a:hover
+{
+    background: #ccc;
+    color: #000;
+}
+
+.menu li ul
+{
+    display: none;
+    font-size: 1.0em;
+}
+
+.menu li:hover ul
+{
+    display: block;
+    position: relative;
+}
+
+.menu  li:hover li
+{
+    float: none;
+}
+
+#banner_anime
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    margin: 0px;
+}
+
+#banner_anime img
+{
+    position: absolute;
+    transition-property: opacity;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+#anime1, #anime2:hover
+{
+    opacity: 1;
+}
+
+#anime1:hover, #anime2
+{
+    opacity: 0;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.informar
+{
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    max-width: 1200px;
+    height: auto;
+    left: 1,5%;
+}
+
+.img_robo
+{
+    float: left;
+    width: 46%;
+    margin: 10px 20px;
+}
+
+.img_robo2
+{
+    float: right;
+    width: 46%;
+    margin: 10px 20px;
+}
+
+h1
+{
+    display: block;
+    position: absolute;
+    text-align: justify;
+    margin-top: -4px; 
+    margin-left: 167px; 
+    font-size: 2.5em;
+    color: rgba(208, 211, 12, 0.8);
+
+}
+
+h2
+{
+    background: rgb(51, 49, 49);
+    text-align: center;
+    color: rgb(192, 192, 79);
+    font-size: 1.3em;
+    margin: 3px;
+}
+
+p
+{
+    text-align: justify;
+    font-size: 1em;
+    text-indent: 20px; 
+    color: rgb(221, 215, 215);
+}
+
+span a
+{
+    color: rgb(235, 220, 6);
+    text-decoration: none;
+}
+
+span a:hover
+{
+    color: rgb(224, 12, 6);
+}
+
+.rodape
+{
+    background: rgb(17, 17, 145);
+    clear: both;
+    border-top: 2px solid  rgb(30,30,233);
+}
+
+.rodape p
+{
+    text-align: center;
+    font-size: 1em;
+    color: darkgray;
+}
+
+#topSite {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Aqui você irá encontrar informações sobre o mundo da robótica.">
+        <meta name="keywords" content="Robôs, robô, inteligência artificial, humanoides, robôs autonomos, automação...">
+        <title>Robótica</title>
+
+        <link rel="man(1)" href="img/man(1).png">
+        <link rel="stylesheet" type="text/css" href="css/estilo_home.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo_contatos.css">
+
+    </head>
+    <body>
+        <h1> O Mundo da Robótica </h1>
+
+        <div id="interface">
+            <header class="topo">
+                <img src="img/spider.jpg" alt="robô"      title="Imagen de Ashfad Hossain/Pixabay">
+                <nav class="menu">
+                    <ul>
+                        <li> <a href="index.html"> HOME </a> </li>
+                        
+                            <li> <a href="robos.html"> ROBÔS </a> </li>
+                            <li> <a href="videos.html"> VÍDEOS </a> </li>
+                            <li> <a href="fotos.html"> FOTOS </a> </li>
+                            <li> <a href="empresa.html"> EMPRESA </a> </li>
+                            <li> <a href="contatos.html"> CONTATOS </a> </li>
+                        </li>    
+                    </ul>
+                </nav>
+            </header>
+
+                <form action="mailto:ts_albuquerque@hotmail.com" method="post">
+                    <h2> Contatos </h2>
+                    <fieldset>
+                        <legend> Idenficação do usuário </legend>
+
+                        <p>
+                            <label for="cnome"> Nome </label>
+                            <input type="text" name="nome" id="cnome" size="35" maxlength="25" placeholder="Nome Completo" required autofocus>
+                        </p>
+                        
+                        <p>
+                            <label for="ccel"> Celular </label>
+                            <input type="tel" name="Celular" id="ccel" maxlength="13" size="13" placeholder="Celular" required>      
+                        </p>
+
+                        <p>
+                            <label for="cmail"> E-mail </label>
+                            <input type="email" name="mail" id="cmail" size="30" maxlength="30" placeholder="E-mail" required>
+                        </p>
+
+                    <fieldset id="endereco">
+                        <legend>Endereço do usuário</legend>
+
+                        <p>
+                            <label for="crua"> Logradouro </label>
+                            <input type="text" name="rua" id="crua" size="50" placeholder="Rua, Av., Trav,....">
+                        </p>
+
+                        <p>
+                            <label for="cnum"> Número </label>
+                            <input type="number" name="num" id="cnum" min="0" max="99999">
+                        </p>
+
+                        <p>
+                            <label for="cest"> Estado </label>
+                            <select name="est" id="cest">
+
+                            <optgroup label="Região Sudeste">
+                                <option value="SP" selected> São Paulo </option>
+                                <option value="RJ"> Rio de Janeiro </option>
+                                <option value="MG"> Minas Gerais </option>
+                                <option value="ES"> Espírito Santo </option>
+                            </optgroup>
+
+                            <optgroup label="Região Sul">
+                                <option value="SC"> Santa Catarina </option>
+                                <option value="PR"> Paraná </option>
+                                <option value="RS"> Rio Grande do Sul </option>
+                            </optgroup>  
+
+                            <optgroup label="Região Nordeste">
+                                <option value="SC"> Bahia </option>
+                                <option value="PR"> Alagoas </option>
+                                <option value="RS"> Pernambuco </option>
+                                <option value="RS"> Ceára </option>
+                            </optgroup>  
+
+                            <optgroup label="Região Norte">
+                                <option value="SC"> Amazonas </option>
+                                <option value="PR"> Acre </option>
+                                <option value="RS"> Amapá </option>
+                                <option value="RS"> Pará </option>
+                            </optgroup>  
+
+                            </select>
+                        </p>
+
+                    </fieldset>
+
+                    <fieldset id="mensagem">
+                        <legend> Mensagem do usuário </legend>
+
+                        <p>
+                            <textarea name="msg" id="cmsg" cols="50" rows="7" placeholder="Digite sua mensagem."></textarea>
+                        </p>
+                    </fieldset>
+
+                    <input type="submit" name="enviar" class="btn">
+                    <input type="reset" name="limpar" class="btn" value="limpar">
+                    
+                </form>
+
+                
+            
+            <footer class="rodape">
+                <p> Desenvolvido para curso Técnico de Informática Senac Tatuapé, 
+                    Somente para fins educativos.
+                </p>
+
+                <p>Desenvolvido por: Tiago S. A. Paz</p>
+
+                <p>
+                    <a target="_blank" href="https://pt-br.facebook.com/"> 
+                        <img src="img/logo-face.png" alt="">
+                    </a>
+
+                    <a target="_blank" href="https://instagram.com/">
+                        <img src="img/logo-instagram.png" alt="">                     
+                    </a>
+
+                    <a target="_blank" href="https://twitter.com/">
+                        <img src="img/logo-twitter.png" alt="">
+                    </a>
+                </p>
+
+            </footer>
+
+        </div>
+
+        <a href="#" id="topSite"><img src="img/topo.png" alt="topo do site"></a>
+            <script>src="scroll.js"</script>
+        
+    </body>
+</html>
