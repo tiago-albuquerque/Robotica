@@ -54,5 +54,14 @@
         alt="CSS válido!" />
     </a>
 </p>
-# Robotica
+# Site do aluno Tiago Siqueira Albuquerque Paz
+Conteúdo na área de Robótica
+##Autor
+Tiago S. A. Paz
+##Construído com
+*HTML5
+*CSS3
+*JS
+##LICENSA
+Este projeto está licenciado sob a licensa MIT - Consulte o arquivo LICENSE.md para detalhes.
 Mini projeto HTML5 e CSS3 - Senac Tatuapé
