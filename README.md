@@ -55,7 +55,7 @@
     </a>
 </p>
 # Site do aluno Tiago Siqueira Albuquerque Paz
-Conteúdo na área de Robótica
+Conteúdo na área de Robótica, Desenvolvido para curso Técnico de Informática Senac Tatuapé, Somente para fins educativos.
 ##Autor
 Tiago S. A. Paz
 ##Construído com
